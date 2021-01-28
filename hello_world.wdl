@@ -1,6 +1,6 @@
 version 1.0
 
-workflow helloworld {
+#workflow helloworld {
     input {
       String greeting
     }
@@ -23,7 +23,7 @@ task hello {
   command {
     echo "${greeting}"
   }
-  
+
   runtime {
     maxRetries: 1
     preemptible: 1
