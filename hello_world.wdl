@@ -16,7 +16,7 @@ workflow helloworld {
      }
 }
 
-task hello {
+##task hello {
     input {
       String greeting
     }
