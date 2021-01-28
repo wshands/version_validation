@@ -1,6 +1,6 @@
 version 1.0
 
-##workflow helloworld {
+workflow helloworld {
     input {
       String greeting
     }
